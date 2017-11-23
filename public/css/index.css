@@ -1,3 +1,8 @@
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
 body {
   font-family: Georgia;
 }
@@ -13,10 +18,17 @@ body {
   box-shadow: 0 0 100px 20px black inset;
 }
 
+.hero-button-text {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
 .hero-button-writing-services {
   background: rgba(0, 0, 0, 1);
   clip-path: polygon(10% 0, 100% 0, 100% 85%, 94% 100%, 0 100%, 0 100%, 0 15%);
-  color: white;
   display: flex;
   flex-direction: column;
   font-size: 4rem;
@@ -31,7 +43,6 @@ body {
 .hero-button-training-services {
   background: rgba(0, 0, 0, 1);
   clip-path: polygon(10% 0, 100% 0, 100% 85%, 94% 100%, 0 100%, 0 100%, 0 15%);
-  color: white;
   display: flex;
   flex-direction: column;
   font-size: 4rem;
@@ -46,7 +57,6 @@ body {
 .hero-button-sales-services {
   background: rgba(0, 0, 0, 1);
   clip-path: polygon(10% 0, 100% 0, 100% 85%, 94% 100%, 0 100%, 0 100%, 0 15%);
-  color: white;
   display: flex;
   flex-direction: column;
   font-size: 4rem;
@@ -59,30 +69,31 @@ body {
 }
 
 .training-infographic {
-  height: 70%;
-  /*padding-top: 8%;*/
+  display: block;
+  height: 65%;
+  margin-bottom: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: auto;
 }
 
 .sales-infographic {
-  height: 70%;
-  /*padding-top: 8%;*/
-}
-
-.sales-services-anchor {
-  border: 1px solid white;
-  height: 70%;
-}
-
-.training-services-anchor {
-  border: 1px solid white;
-  height: 70%;
+  display: block;
+  height: 65%;
+  margin-bottom: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: auto;
 }
 
 .writing-infographic {
-  height: 50%;
-}
-
-.writing-services-anchor {
-  border: 1px solid white;
-  height: 70%;
+  display: block;
+  height: 48%;
+  margin-bottom: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: auto;
 }
