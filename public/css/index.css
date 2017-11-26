@@ -14,7 +14,6 @@ body {
   height: 100vh;
   background-position: 50% 50%;
   background-size: cover;
-  opacity: .95;
   box-shadow: 0 0 100px 20px black inset;
 }
 
@@ -26,7 +25,7 @@ body {
   width: 100%;
 }
 
-.hero-button-writing-services {
+.hero-button-sales-services {
   background: rgba(0, 0, 0, 1);
   clip-path: polygon(10% 0, 100% 0, 100% 85%, 94% 100%, 0 100%, 0 100%, 0 15%);
   display: flex;
@@ -34,9 +33,6 @@ body {
   font-size: 4rem;
   height: 20%;
   justify-content: center;
-  position: relative;
-  text-align: center;
-  text-shadow: 2px 2px black;
   top: 35%;
 }
 
@@ -48,13 +44,10 @@ body {
   font-size: 4rem;
   height: 20%;
   justify-content: center;
-  position: relative;
-  text-align: center;
-  text-shadow: 2px 2px black;
   top: 35%;
 }
 
-.hero-button-sales-services {
+.hero-button-writing-services {
   background: rgba(0, 0, 0, 1);
   clip-path: polygon(10% 0, 100% 0, 100% 85%, 94% 100%, 0 100%, 0 100%, 0 15%);
   display: flex;
@@ -62,9 +55,6 @@ body {
   font-size: 4rem;
   height: 20%;
   justify-content: center;
-  position: relative;
-  text-align: center;
-  text-shadow: 2px 2px black;
   top: 35%;
 }
 
@@ -96,4 +86,33 @@ body {
   margin-right: auto;
   margin-top: 10%;
   width: auto;
+}
+
+/* ------------MEDIA QUERIES------------ */
+@media only screen and (max-width: 768px) {
+  .hero-button-sales-services {
+    top: 30%;
+  }
+
+  .hero-button-training-services {
+    top: 20%;
+  }
+
+  .hero-button-writing-services {
+    top: 10%;
+  }
+
+  .training-infographic {
+    height: 60%;
+  }
+
+  .sales-infographic {
+    height: 60%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .writing-infographic {
+    height: 30%;
+  }
 }
