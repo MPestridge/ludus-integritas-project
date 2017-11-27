@@ -27,7 +27,8 @@ body {
 
 .hero-button-sales-services {
   background: rgba(0, 0, 0, 1);
-  clip-path: polygon(10% 0, 100% 0, 100% 85%, 94% 100%, 0 100%, 0 100%, 0 15%);
+  /*border-radius: 0 0 15px 0;*/
+  box-shadow: 3px 5px 4px 1px rgba(0, 0, 0, .6);
   display: flex;
   flex-direction: column;
   font-size: 4rem;
@@ -38,7 +39,7 @@ body {
 
 .hero-button-training-services {
   background: rgba(0, 0, 0, 1);
-  clip-path: polygon(10% 0, 100% 0, 100% 85%, 94% 100%, 0 100%, 0 100%, 0 15%);
+  box-shadow: 0 5px 4px 2px rgba(0, 0, 0, .6);
   display: flex;
   flex-direction: column;
   font-size: 4rem;
@@ -49,7 +50,8 @@ body {
 
 .hero-button-writing-services {
   background: rgba(0, 0, 0, 1);
-  clip-path: polygon(10% 0, 100% 0, 100% 85%, 94% 100%, 0 100%, 0 100%, 0 15%);
+  /*border-radius: 0 0 0 15px;*/
+  box-shadow: -3px 5px 4px 1px rgba(0, 0, 0, .6);
   display: flex;
   flex-direction: column;
   font-size: 4rem;
