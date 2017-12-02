@@ -1,0 +1,18 @@
+body {
+  padding-top: 70px;
+}
+
+.insta-link {
+  height: 100%;
+  padding: 12px;
+}
+
+.navbar {
+ background: transparent;
+ display: block;
+}
+
+.page-footer {
+  background-color: green;
+  height: 50px;
+}
