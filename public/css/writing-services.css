@@ -1,3 +1,12 @@
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.about-link {
+  padding-left: 55px;
+}
+
 body {
   /*padding-top: 70px; this is to compensate for the navbar*/
 }
@@ -18,12 +27,18 @@ body {
 
 .insta-link {
   height: 100%;
-  padding: 10px 20px 10px 10px;
+  padding: 10px 40px 10px 10px;
 }
 
 .navbar {
  background: transparent;
  display: block;
+}
+
+.navbar-logo {
+  height: 50px;
+  padding: 5px 5px 5px 20px;
+  position: absolute;
 }
 
 .page-footer {
