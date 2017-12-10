@@ -1,7 +1,3 @@
-h1 {
-  height: 550px;
-}
-
 a {
   text-decoration: none !important;
   color: black !important;
@@ -12,7 +8,7 @@ a {
 }
 
 body {
-  /*padding-top: 40px; /*this is to compensate for the navbar*/*/
+  padding-top: 40px; /*this is to compensate for the navbar*/
 }
 
 .blog-link {
@@ -32,6 +28,27 @@ body {
   width: 100%;
 }
 
+#header-spacer-about {
+  content: "";
+  display: block;
+  height: 40px;
+  margin: -40px 0 0;
+}
+
+#header-spacer-blog {
+  content: "";
+  display: block;
+  height: 40px;
+  margin: -40px 0 0;
+}
+
+#header-spacer-contact {
+  content: "";
+  display: block;
+  height: 40px;
+  margin: -40px 0 0;
+}
+
 .fb-link {
   height: 100%;
   padding: 10px;
@@ -43,27 +60,31 @@ body {
 }
 
 .navbar {
- background: rgba(255, 255, 255, 1);
+ background: rgba(255, 255, 255, .9);
  box-shadow: 0 5px 15px 5px white;
  display: block;
 }
 
 .navbar-logo {
-  background: rgba(255, 255, 255, .75);
   height: 100%;
-  margin-left: 25px;
-  /*padding: 5px 5px 5px 20px;*/
+  margin-left: 20px;
+  padding: 5px;
   position: absolute;
 }
 
 .navbar-text {
-  background: rgba(255, 255, 255, .75);
   font-size: 2.25rem;
   padding: 11px 16px 5px 16px;
 }
 
+.other-services-link {
+  margin: 0;
+}
+
 .page-footer {
+  background: rgba(255, 255, 255, .9);
   bottom: 0;
+  box-shadow: 0 -5px 15px 5px white;
   height: 50px;
   position: sticky;
   width: 100%;
