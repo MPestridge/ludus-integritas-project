@@ -1,14 +1,26 @@
+h1 {
+  height: 550px;
+}
+
 a {
   text-decoration: none !important;
   color: black !important;
 }
 
 .about-link {
-  padding-left: 55px;
+  margin: 0 0 0 75px;
 }
 
 body {
-  /*padding-top: 70px; this is to compensate for the navbar*/
+  /*padding-top: 40px; /*this is to compensate for the navbar*/*/
+}
+
+.blog-link {
+  margin: 0;
+}
+
+.contact-link {
+  margin: 0;
 }
 
 .page-background {
@@ -31,19 +43,28 @@ body {
 }
 
 .navbar {
- background: transparent;
+ background: rgba(255, 255, 255, 1);
+ box-shadow: 0 5px 15px 5px white;
  display: block;
 }
 
 .navbar-logo {
-  height: 50px;
-  padding: 5px 5px 5px 20px;
+  background: rgba(255, 255, 255, .75);
+  height: 100%;
+  margin-left: 25px;
+  /*padding: 5px 5px 5px 20px;*/
   position: absolute;
+}
+
+.navbar-text {
+  background: rgba(255, 255, 255, .75);
+  font-size: 2.25rem;
+  padding: 11px 16px 5px 16px;
 }
 
 .page-footer {
   bottom: 0;
   height: 50px;
-  position: absolute;
+  position: sticky;
   width: 100%;
 }
