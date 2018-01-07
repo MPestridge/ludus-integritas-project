@@ -8,14 +8,14 @@ a {
 }
 
 #about-section {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 body {
 
 }
 
-.blog-link {
+.previous-work-link {
   margin: 0;
 }
 
@@ -23,17 +23,7 @@ body {
   margin: 0;
 }
 
-#page-background {
-  /* background: url('../images/writing-services-background.png') no-repeat; */
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 100vh;
-  padding-top: 0;
-  position: absolute;
-  width: 100%;
-}
-
-.page-background-overlay {
+/* #page-background {
   background: url('../images/writing-services-background.png') no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -41,7 +31,17 @@ body {
   padding-top: 0;
   position: absolute;
   width: 100%;
-}
+} */
+
+/* .page-background-overlay {
+  background: url('../images/writing-services-background.png') no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  padding-top: 0;
+  position: absolute;
+  width: 100%;
+} */
 
 #header-spacer-about {
   content: "";
@@ -50,7 +50,7 @@ body {
   margin: -40px 0 0;
 }
 
-#header-spacer-blog {
+#header-spacer-previous-work {
   content: "";
   display: block;
   height: 40px;
@@ -110,14 +110,94 @@ p {
 }
 
 /* ------------MEDIA QUERIES------------ */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
+  #about-section {
+    margin-top: 150px;
+  }
 
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .navbar-logo {
+    display: block;
+    height: 80px;
+    margin: 0 auto;
+    padding: 5px 0 5px 20px;
+    position: relative;
+  }
+
+  .navbar-text {
+    display: block;
+    font-size: 2rem;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  h1 {
+
+  }
+
+  h2 {
+
+  }
+
+  .navbar-text {
+    font-size: 2.25rem;
+    padding: 11px 16px 5px 16px;
+  }
+
+  p {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
+  h1 {
 
+  }
+
+  h2 {
+
+  }
+
+  .navbar-text {
+    font-size: 2.25rem;
+    padding: 11px 16px 5px 16px;
+  }
+
+  p {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (min-width: 1700px) {
+  h1 {
 
+  }
+
+  h2 {
+
+  }
+
+  .navbar-text {
+    font-size: 2.25rem;
+    padding: 11px 16px 5px 16px;
+  }
+
+  p {
+    font-size: 2rem;
+  }
 }

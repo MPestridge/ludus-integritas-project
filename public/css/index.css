@@ -65,7 +65,7 @@ body {
   font-size: 6rem;
   padding-top: 20px;
   text-align: center;
-  /* text-shadow: rgba(255, 215, 0, 1) .2px .2px 15px; */
+  text-shadow: rgba(255, 215, 0, 1) 1px 1px 0;
 }
 
 .training-infographic {
@@ -121,7 +121,7 @@ body {
   }
 
   .page-background {
-    background: url('../images/li-background-test5-mobile.jpg') no-repeat;
+    background: url('../images/li-background-test5-mobile-xs.jpg') no-repeat;
     height: 800px;
   }
 
