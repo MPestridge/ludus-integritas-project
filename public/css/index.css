@@ -60,12 +60,12 @@ body {
 }
 
 .logo-text {
-  color: white;
+  color: rgba(169, 34, 40, .95);
   font-family: TimesNewRoman, "Times New Roman";
   font-size: 6rem;
   padding-top: 20px;
   text-align: center;
-  text-shadow: #b9110eff .2px .2px 15px;
+  text-shadow: rgba(255, 215, 0, 1) .2px .2px 15px;
 }
 
 .training-infographic {
@@ -118,6 +118,10 @@ body {
 
   .logo-text {
     font-size: 4.5rem;
+  }
+
+  .page-background {
+    background: url('../images/li-background-test5-mobile.jpg') no-repeat;
   }
 
   .training-infographic {
