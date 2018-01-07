@@ -24,7 +24,7 @@ body {
 }
 
 #page-background {
-  /*background: url('../images/dark-brick-background.jpg') no-repeat;*/
+  /* background: url('../images/dark-brick-background.jpg') no-repeat; */
   background-position: 50% 50%;
   background-size: cover;
   height: 100vh;
@@ -34,7 +34,7 @@ body {
 }
 
 .page-background-overlay {
-  /*background: url('../images/writing-services-background.png') no-repeat;*/
+  background: url('../images/writing-services-background.png') no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   height: 100vh;
@@ -111,5 +111,13 @@ p {
 
 /* ------------MEDIA QUERIES------------ */
 @media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1700px) {
 
 }
