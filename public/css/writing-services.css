@@ -27,15 +27,15 @@ body {
   margin: 0;
 }
 
-/* #page-background {
-  background: url('../images/writing-services-background.png') no-repeat;
+ /*#page-background {
+  background: url('../images/writing-images-background.jpg') no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   height: 100vh;
   padding-top: 0;
   position: absolute;
   width: 100%;
-} */
+}*/
 
 /* .page-background-overlay {
   background: url('../images/writing-services-background.png') no-repeat;
@@ -120,6 +120,27 @@ p {
   height: 50px;
   position: sticky;
   width: 100%;
+}
+
+#typewriter {
+  /*bottom: -50px;
+  position: relative;
+  right: -40%;
+  margin-top: -300px;*/
+}
+
+#typewriter-container {
+  bottom: -50px;
+  position: relative;
+  right: -40%;
+  margin-top: -300px;
+}
+
+.typewriter-text {
+  font-family: 'Special Elite', cursive;
+  margin: -850px 0 0 260px;
+  position: absolute;
+  width: 450px;
 }
 
 /* ------------MEDIA QUERIES------------ */
