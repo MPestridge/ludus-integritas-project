@@ -59,13 +59,18 @@ body {
   top: 30%;
 }
 
-.logo-text {
-  color: rgba(169, 34, 40, .95);
-  font-family: TimesNewRoman, "Times New Roman";
-  font-size: 6rem;
-  padding-top: 20px;
+.logo-desktop {
+  padding-top: 60px;
+  width: 900px;
+}
+
+.logo-mobile {
+  display: none;
+}
+
+.logo-div {
+  padding-top: 40px;
   text-align: center;
-  text-shadow: rgba(255, 215, 0, 1) 1px 1px 0;
 }
 
 .training-infographic {
@@ -117,8 +122,14 @@ body {
     top: 1%;
   }
 
-  .logo-text {
-    font-size: 4.5rem;
+  .logo-desktop {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: inline-block;
+    padding-bottom: 10px;
+    width: 100%;
   }
 
   .page-background {
@@ -155,8 +166,14 @@ body {
     top: 1%;
   }
 
-  .logo-text {
-    font-size: 4.5rem;
+  .logo-desktop {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: inline-block;
+    padding-bottom: 10px;
+    width: 85%;
   }
 
   .page-background {
@@ -179,6 +196,10 @@ body {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .hero-button-text {
     font-size: 2.1rem;
+  }
+
+  .logo-desktop {
+    width: 80%;
   }
 
   .writing-infographic {
@@ -208,10 +229,6 @@ body {
 
   .hero-button-writing-services {
     height: 200px;
-  }
-
-  .logo-text {
-    font-size: 8rem;
   }
 
   .training-infographic {
